@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 80px;
+    background-color: white;
+}
+
+.btn {
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .btn-signin {
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+  }
+  
+  .btn-signup {
+    color: green;
+    border: 1px solid green;
+    background-color: white;
+    border-radius: 4px;
+    margin-right: 20px;
+  }
+  
+  .btn:hover {
+    opacity: 0.7;
+  }
+
+.home-button {
+    font-size: 18px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .user-bar {
+    display: flex;
+    margin-right: 20px;
+  }
+
+  .btn-logout {
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.75)
+  }
+
+  .profile-wrapper {
+    cursor: pointer;
+  }

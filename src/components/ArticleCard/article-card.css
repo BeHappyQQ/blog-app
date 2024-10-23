@@ -1,0 +1,99 @@
+.article-card {
+    width: 930px;
+    height: 140px;
+    padding: 15px;
+    margin: 15px auto;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 12px 0px #00000026;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.article-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.article-page-card {
+    min-width: 930px;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;  
+    background-color: #f9f9f9;  
+}
+
+.article-title--container {
+    display: flex;
+    gap: 20px;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+}
+
+.article-title {
+    color: #1890FF;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.article-likes--container {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.article-likes--heart {
+    width: 16px;
+    height: 15px;
+    background-image: url('../../assets/images/unlike.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.liked {
+    background-image: url('../../assets/images/like.svg');
+}
+
+.article-likes--count {
+    font-size: 12px;
+    line-height: 22px;
+    text-align: left;
+}
+
+.article-tags {
+    display: flex;
+    gap: 5px;
+}
+
+.article-tag {
+    border: 1px solid #00000080;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.article-description {
+    font-size: 12px;
+    line-height: 1.6;
+    margin-top: 20px;
+    color: #333;
+}
+
+.btn-delete-article {
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+.btn-edit-article {
+    width: 72px;
+    color: green;
+    border-color: green;
+}
